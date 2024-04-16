@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --clearish: #E4DEE8;
+    --dark-purple: #53296F;
+    --light-purple: #a96a399b;
+    --greyish: #747474;
+    --background-color: #e2dae5;
+    --lower-back: #522371;
+    --grey: #c5c9ca;
+    --border: #e76823;
+    --greenish: #a5a58d;
+}
+
+body {
+    font-family: "Outfit", sans-serif;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(180deg, #1d2d44, #0d1321);
+    background-color: var(--greenish);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.card {
+    margin: 150px;
+    margin-top: 30px;
+}
+
+.container {
+    background-color: var(--clearish);
+    color: black;
+    min-width: 200px;
+    /* min-height: 400px; */
+}
+
+.enterCity {
+    width: 350px;
+    height: 40px;
+    outline: none;
+    border: 1px solid gray;
+    padding: 5px;
+    font-size: 1.7rem;
+    border-radius: 5px;
+}
+
+.display button {
+    width: 300px;
+    height: 40px;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    border: 4px solid #fff;
+    background-color: #3e5c76;
+    color: white;
+    border-radius: 4px;
+}
+
+.display button:hover {
+    background-color: rgba(62, 92, 118, 0.743);
+
+
+}
+
+.display {
+    margin: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    border: 10px solid #0d1321;
+}
+
+.container:hover {
+    border: 10px solid #3e5c76;
+}
+
+.cityDs {
+    font-size: 3rem;
+    /* color: var(--greyish); */
+    margin: 30px 30px;
+    font-weight: bold;
+
+}
+
+.cityDs:hover {
+    color: #53296F;
+}
+
+.humDis {
+    margin: 30px;
+    font-size: 2.5rem;
+}
+
+.tempDs {
+    margin: 10px;
+    font-size: 2rem;
+    padding: 30px;
+}
+
+.descDs {
+    margin: 10px;
+    font-size: 1.5rem;
+    font-style: italic;
+    margin: 30px;
+    padding: 30px;
+
+}
+
+.err {
+    font-size: 5rem;
+    margin: 40px;
+    font-weight: bold;
+    display: none;
+}
